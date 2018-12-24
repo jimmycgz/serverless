@@ -1,5 +1,9 @@
 # Build Serverless application with Python
 
+Refer to below post to build Worker and API functions, but seems it doesn't indicate how to integrate two of them, showing the result of web request to API endpoint.
+https://read.iopipe.com/the-right-way-to-do-serverless-in-python-e99535574454
+I've completed all of the excercises listed in Part I.
+
 ## Environment:
 
 Python 3.6
@@ -15,6 +19,10 @@ https://serverless.com/framework/docs/providers/aws/guide/quick-start/
 
 > Install Nodejs 
 https://github.com/nodesource/distributions/blob/master/README.md
+
+> Install Docker
+https://docs.docker.com/install/linux/docker-ce/ubuntu/#install-using-the-repository
+
 
 ``` 
 sudo apt-get update
