@@ -21,7 +21,11 @@ Refer to code file: rand_number.py
 ## Part 5: Add more parameters to call EC2 managment functions
 
 * pending_task:50-1300
+
 * command:up, fire_more 
+
 Fire up EC2 instances from scaling group or standby pool by calling boto3 code via Python
+
 Refer to code file: Fire-up-EC2.py
+
 * request_ID:context.aws_request_id or time_stamp
