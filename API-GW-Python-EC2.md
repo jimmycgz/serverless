@@ -18,10 +18,10 @@ Refer to code file: rand_number.py
 > Get trigger from the API call via browser url like below.
 > https://d1f614nf05.execute-api.ca-central-1.amazonaws.com/POC/number?min=50&max=60
 
-## Part 5: Change run time from NodeJS to Python
-
-Add more parameters like below:
+## Part 5: Add more parameters to call EC2 managment functions
 
 * pending_task:50-1300
-* command:up, fire_more
+* command:up, fire_more 
+Fire up EC2 instances from scaling group or standby pool by calling boto3 code via Python
+Refer to code file: Fire-up-EC2.py
 * request_ID:context.aws_request_id or time_stamp
