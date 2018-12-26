@@ -10,4 +10,14 @@ Based on the initial excercise following API-GW-NodeJS.md, integrate with Python
 https://d1f614nf05.execute-api.ca-central-1.amazonaws.com/POC/number?min=50&max=100
 
 ## Part 4: Change run time from NodeJS to Python
+Refer to code file: rand_number.py
+> Generate a random number from a range
+> Get trigger from the API call via browser url like below.
+> https://d1f614nf05.execute-api.ca-central-1.amazonaws.com/POC/number?min=50&max=60
 
+## Part 5: Change run time from NodeJS to Python
+
+Add more parameters like below:
+pending_task:50-1300
+command:up, fire_more
+request_ID:context.aws_request_id or time_stamp
