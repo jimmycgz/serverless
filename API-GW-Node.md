@@ -2,11 +2,8 @@
 
 Cover topics like creating a function in Node.js, deploying them with automated tools, executing functions with HTTP calls, integrating them with other AWS services and much more!
 
-## Getting started with AWS Lambda, part 1
-https://www.youtube.com/watch?v=fSUEk6iMW88
-
-## Part 2: A simple function to generate random numbers by nodejs
-https://www.youtube.com/watch?v=PEatXsXIkLc
+## Part 1: Create a simple function to generate random numbers by nodejs
+Refer to Video: https://www.youtube.com/watch?v=PEatXsXIkLc
 
 ```
 'use strict';
@@ -25,8 +22,8 @@ exports.handler = (event, context, callback) => {
 
 ```
 
-## Part 3 Connecting Lambda to API Gateway
-https://www.youtube.com/watch?annotation_id=annotation_1347208637&feature=iv&src_vid=PEatXsXIkLc&v=DSrg7hG-jV4
+## Part 2: Connecting Lambda to API Gateway
+Refer to Video: https://www.youtube.com/watch?annotation_id=annotation_1347208637&feature=iv&src_vid=PEatXsXIkLc&v=DSrg7hG-jV4
 
 Step1: Create a new API with resource:
 API Gateway=>APIs => Random-Number-API /number /GET
@@ -41,7 +38,7 @@ API Gateway=>APIs => Random-Number-API /number - GET - Integration Request => Ma
 }
 ```
 
-## Getting started with AWS Lambda, part 4
+## Part 3: Transfer Parameters to Lambda Function via API Calls
 https://www.youtube.com/watch?v=afhNipd6TkE
 
 Step1: Change nodejs code as below:
@@ -63,3 +60,6 @@ exports.handler = (event, context, callback) => {
 Step2: Re-deploy and open below url:
 
 https://d1f614nf05.execute-api.ca-central-1.amazonaws.com/POC/number?min=50&max=100
+
+## Part 4: Change run time from NodeJS to Python
+To be continued at file API-GW-Pythong-EC2.md
